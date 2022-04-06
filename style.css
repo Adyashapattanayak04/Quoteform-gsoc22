@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Nunito+Sans:ital,wght@1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+ .header{
+    margin: 0 20%;
+    display: flex;
+    
+   
+
+}
+
+.header img{
+    width: 15%;
+    height: 10%;
+    margin-left: 5%;
+    
+}
+
+.header h1{
+    font-family: 'Abhaya Libre',serif;
+    font-size: 3em;
+    font-weight: 300;
+    margin: 3% 5%;
+    font-style: italic;
+   
+
+}
+
+.container-box1{
+   
+    margin: 0 5%;
+    margin-top: 1%;
+    background: #fff;
+    padding :25px 30px;
+    border-radius: 5px;
+   
+    box-shadow: 1px 7px 16px 2px #888888;
+}
+
+.container-box1 .box1{
+
+    padding:2%;
+    background-color: #EDEDED;
+
+}
+.container-box1 .box1 .title h1{
+font-family: 'Abhaya Libre',serif;
+font-style: italic;
+font-weight: 100;
+
+color:#474545;
+}
+
+
+
+
+.form-box {
+    margin: auto;
+    border: solid 0.5px rgba(128, 128, 128, 0.5);
+    
+    padding: 5%;
+}
+
+.invalid{
+    border: 2px solid red;
+
+}
+
+.valid{
+    border: 2px solid green;
+
+}
+
+
+/*media queries*/
+@media only screen and (max-width:996px) {
+
+    .header {
+        margin: 0 8%;
+        display: flex;
+
+
+
+    }
+
+    .header img {
+        width: 15%;
+        height: 10%;
+        margin-left: 5%;
+
+    }
+
+    .header h1 {
+        font-family: 'Abhaya Libre', serif;
+        font-size: 3em;
+        font-weight: 300;
+        margin: 3% 3%;
+        font-style: italic;
+
+
+    }
+
+    .container-box1 .box1 .title h1 {
+        font-size: 2em;
+    }
+
+
+
+}
+@media (max-width:768px) {
+
+    .header {
+        margin: 0 5%;
+        display: flex;
+    
+    
+    
+    }
+    
+    .header img {
+        width: 15%;
+        height: 10%;
+        margin-left: 2%;
+    
+    }
+    
+    .header h1 {
+        font-family: 'Abhaya Libre', serif;
+        font-size: 2em;
+        font-weight: 300;
+        margin: 3% 3%;
+        font-style: italic;
+    
+    
+    }
+
+    .container-box1 .box1 .title h1{
+        font-size: 2em;
+    }
+
+
+   
+}
+
+@media (max-width: 584px) {
+
+    .header {
+        margin: 0 5%;
+        display: flex;
+    
+    
+    
+    }
+    
+    .header img {
+        width: 15%;
+        height: 10%;
+        margin-left: 2%;
+    
+    }
+    
+    .header h1 {
+        font-family: 'Abhaya Libre', serif;
+        font-size: 2em;
+        font-weight: 300;
+        margin: 3% 3%;
+        font-style: italic;
+    
+    
+    }
+   
+}
